@@ -1,7 +1,7 @@
 # Stock Analysis in Microsoft Excel using VBA
 
 ## Project Overview
-Using Microsoft Excel VBA scripts, analyze green energy stocks to a help a finance graduate Steve advise his parents on the best ones to invest in base on how often the stocks are traded and returns. Steve's parent have taken a particular interest in a green energy stock DAQO (ticker DQ) so he would like to look at that stock first but also compare to other green energy stocks.
+Using Microsoft Excel VBA scripts, analyze green energy stocks to a help a finance graduate Steve advise his parents on the best ones to invest in base on how often the stocks are traded and returns. Steve's parent have taken a particular interest in a green energy stock DAQO (ticker DQ) so he would like to look at that stock first but also compare it to other green energy stocks.
 
 ### Steps completed to perform analysis
 1. Download green enery stock data

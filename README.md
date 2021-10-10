@@ -22,7 +22,7 @@ Using Microsoft Excel VBA scripts, the initial VBA script automated gathering an
 11. Provide a button to clear the worksheet prior to rerunning when needed
 12. Provide spreadsheet with the buttons and formatted results to Steve on the handful of green energy stocks including DQ
 
-### Stock analysis highlights
+#### Stock analysis highlights
 The analysis of the stocks shows that:
 - DQ had high returns in 2017 and poor returns in 2018
 - That most of the stocks had positive returns in 2017 except TERP
@@ -32,41 +32,41 @@ The analysis of the stocks shows that:
 1. Create output arrays and alter initial code using these arrays to capture results for the data more efficiently
 2. Change results output to leverage arrays
 
-## Project Refactoring Results
+## Refactoring Results
 
 ### Refactoring background
 Improved maintainability, improved performance, increased scalability and making code more secure can all be reasons to refactor. The point of the refactor of the initial code for this project was to improve performance decreasing the run time of the VBA script.
 
-##### Initial code summary:
+#### Initial code summary:
 The initial VBA script iterated through the data in the data set for one stock and then output the results for that stock to the analysis spreadsheet. 
 
-###### Initial code sample:
+##### Initial code sample:
 ![Initial_code snippit](/Resources/Initial_code_snip.png)  
 
-###### Initial 2017 run time
+##### Initial 2017 run time
 
 ![2017 initial time](/Resources/VBA_Initial_2017.png)  
 
-###### Initial 2018 run time
+##### Initial 2018 run time
 
 ![2018 initial time](/Resources/VBA_Initial_2018.png)  
 
-##### Refactored code summary:
+#### Refactored code summary:
 The refactored VBA script instead creates output arrays and captures the output data in them more efficiently. Using these output arrays, allows this refactored VBA script to iterate through the rows in the data sheet only once and then output the result efficiently by pulling the data out of the arrays versus having to go back to the data sheet over and over again.
 
-###### Refactored code sample:
+##### Refactored code sample:
 
 ![Refactored code snippit](/Resources/Refactor_code_snip.png)  
 
-###### Refactored 2017 run time
+##### Refactored 2017 run time
 
 ![2017 refactor time](/Resources/VBA_Challenge_2017.png)  
 
-###### Initial 2018 run time
+##### Initial 2018 run time
 
 ![2018 refactor time](/Resources/VBA_Challenge_2018.png)  
 
-## Summary
+## Refactoring Summary
 Refactoring code requires not only understanding what the code is used for and will be used for but also having a good working knowledge of coding options. The overall goal of refactoring is to improve the structure of the code without changing it's functionality. 
 
 ### General Refactoring Advantages

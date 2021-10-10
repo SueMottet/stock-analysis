@@ -1,9 +1,12 @@
-# Stock Analysis in Microsoft Excel using VBA
+# Refactoring - Improving performance of Microsoft Excel VBA scripts using arrays
 
 ## Overview
+Refactor a VBA script used for stock analysis to improve run time and increase script usability for larger datasets.
+
+### Project Background
 Using Microsoft Excel VBA scripts, analyze green energy stocks to a help a finance graduate Steve advise his parents on the best ones to invest in base on how often the stocks are traded and returns. Steve's parent have taken a particular interest in a green energy stock DAQO (ticker DQ) so he would like to look at that stock first but also compare it to other green energy stocks. Once he completes his green energy stock analysis for his parents, he is hoping to be able to use this spreadsheet configuration and VBA script for larger longer lists of stock data that he wants to analyze. With that in mind, he would like the VBA script to be refactored after the initial green energy stock analysis to improve run time as much as possible
 
-## Project Resources
+### Project Resources
 - Data Source: green_stocks.xls
 - Software: Microsoft Excel Ofiice 365
 

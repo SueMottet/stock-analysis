@@ -17,7 +17,7 @@ Using Microsoft Excel VBA scripts, analyze green energy stocks to a help a finan
 
 ### Refactoring completed to tune the VBA 
 Tune the macro for optimum performance for analyzing larger longer lists of stocks by refactoring the code and testing the diferent code run times with a timer. 
-  
+![2017 Refactor Time](/Resources/VBA_Challenge_2017.png)  
 
 ## Project Resources
 - Data Source: green_stocks.xls

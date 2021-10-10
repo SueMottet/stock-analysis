@@ -25,8 +25,8 @@ Using Microsoft Excel VBA scripts, the initial VBA script automated gathering an
 ### Stock analysis highlights
 The analysis of the stocks shows that:
 - DQ had high returns in 2017 and poor returns in 2018
-- That most of the stocks had positive returns in 2017 excel TERP
-- Only two stocks had positive returns in 2018 and those two were ENPH and RUN
+- That most of the stocks had positive returns in 2017 except TERP
+- Only two green energy stocks had positive returns in 2018 and those two were ENPH and RUN
 
 ### Steps completed to perform refactoring
 1. Create output arrays and alter initial code using these arrays to capture results for the data more efficiently

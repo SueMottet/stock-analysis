@@ -1,9 +1,9 @@
 # Stock Analysis in Microsoft Excel using VBA
 
 ## Overview
-Using Microsoft Excel VBA scripts, analyze green energy stocks to a help a finance graduate Steve advise his parents on the best ones to invest in base on how often the stocks are traded and returns. Steve's parent have taken a particular interest in a green energy stock DAQO (ticker DQ) so he would like to look at that stock first but also compare it to other green energy stocks. Once he completes his green energy analysis for his parents, he is hoping to be able to use this spreadsheet configuration and VBA script for larger longer lists of stock data that he wants to analyze. With that in mind, he would like the VBA script to be refactor after the initial green energy stock analysis with that in mind.
+Using Microsoft Excel VBA scripts, analyze green energy stocks to a help a finance graduate Steve advise his parents on the best ones to invest in base on how often the stocks are traded and returns. Steve's parent have taken a particular interest in a green energy stock DAQO (ticker DQ) so he would like to look at that stock first but also compare it to other green energy stocks. Once he completes his green energy stock analysis for his parents, he is hoping to be able to use this spreadsheet configuration and VBA script for larger longer lists of stock data that he wants to analyze. With that in mind, he would like the VBA script to be refactored after the initial green energy stock analysis to improve run time as much as possible
 
-### Steps completed to perform analysis
+### Steps completed to perform intial green energy stock analysis
 1.  Download green enery stock data
 2.  Enable macros
 3.  Create a worksheet for the analysis
@@ -13,8 +13,11 @@ Using Microsoft Excel VBA scripts, analyze green energy stocks to a help a finan
 9.  Format the results data to make it easier for Steve to read
 10. Provide a button in the analysis spreadsheet to prompt for a year to run for and then run the analysis for entered year as needed
 11. Provide a button to clear the worksheet prior to rerunning when needed
-12. Provide spreadsheet with the buttons and formatted results to Steve on the handful of green energy stocks including DAQO
-13. Tune the macro for optimum performance for analyzing larger longer lists of stocks by refactoring the code and testing the diferent code run times with a timer
+12. Provide spreadsheet with the buttons and formatted results to Steve on the handful of green energy stocks including DQ
+
+### Refactoring completed to tune the VBA 
+Tune the macro for optimum performance for analyzing larger longer lists of stocks by refactoring the code and testing the diferent code run times with a timer. 
+  
 
 ## Project Resources
 - Data Source: green_stocks.xls

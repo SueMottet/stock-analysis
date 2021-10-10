@@ -3,7 +3,7 @@
 ## Overview
 Using Microsoft Excel VBA scripts, analyze green energy stocks to a help a finance graduate Steve advise his parents on the best ones to invest in base on how often the stocks are traded and returns. Steve's parent have taken a particular interest in a green energy stock DAQO (ticker DQ) so he would like to look at that stock first but also compare it to other green energy stocks. Once he completes his green energy stock analysis for his parents, he is hoping to be able to use this spreadsheet configuration and VBA script for larger longer lists of stock data that he wants to analyze. With that in mind, he would like the VBA script to be refactored after the initial green energy stock analysis to improve run time as much as possible
 
-### Steps completed to perform intial green energy stock analysis
+### Steps completed to perform intial green energy stock analysis & refactoring
 1.  Download green enery stock data
 2.  Enable macros
 3.  Create a worksheet for the analysis
@@ -14,20 +14,43 @@ Using Microsoft Excel VBA scripts, analyze green energy stocks to a help a finan
 10. Provide a button in the analysis spreadsheet to prompt for a year to run for and then run the analysis for entered year as needed
 11. Provide a button to clear the worksheet prior to rerunning when needed
 12. Provide spreadsheet with the buttons and formatted results to Steve on the handful of green energy stocks including DQ
+13. Create output arrays and alter initial code using these arrays to capture results for the data more efficiently
 
-### Refactoring completed to tune the VBA 
-In the case of this project, the refactoring goal was to tune the macro for optimum performance for analyzing larger longer lists of stocks. The initial VBA script iterated through the data in the data set for one stock and then output the results for that stock to the analysis spreadsheet. 
+## Results - 
+Improved maintainablity, improved performance, increased scalability and making code more secure can all be reasons to refactor. The point of the refactor the intial code for this project was to improve preformance decreasing the run time of the VBA script.
 
+#### Refactoring completed to tune the VBA 
+The refactoring goal for this project was to tune the macro for optimum performance for analyzing larger longer lists of stocks.
 
+##### Initial code summary:
+The initial VBA script iterated through the data in the data set for one stock and then output the results for that stock to the analysis spreadsheet. 
+
+###### Initial code sample:
+![Initial_code snippit](/Resources/Initial_code_snip.png)  
+
+###### Initial 2017 run time
+
+![2017 initial time](/Resources/VBA_Initial_2017.png)  
+
+###### Initial 2018 run time
+
+![2018 initial time](/Resources/VBA_Initial_2018.png)  
+
+##### Refactored code summary:
 The refactored VBA script instead creates output arrays and captures the output data in them efficiently. Using these output arrays, allows this refactored VBA script to iterate through the rows in the data sheet only once and then output the result efficiently be pulling the data out of the arrays versus having to go back to the data sheet over and over again.
 
-![Initial_code snippit](/Resources/Initial_code_snip.png)  
+###### Refactored code sample:
 
 ![Refactored code snippit](/Resources/Refactor_code_snip.png)  
 
-![2018 refactored time](/Resources/VBA_Challenge_2018.png)  
+###### Refactored 2017 run time
 
-![2017 refactor time](/Resources/VBA_Challenge_2017.png)  
+![2017 refactor time](/Resources/VBA_Refactor_2017.png)  
+
+###### Initial 2018 run time
+
+![2018 refactor time](/Resources/VBA_Refactor_2018.png)  
+
 
 ## Project Resources
 - Data Source: green_stocks.xls
@@ -36,7 +59,6 @@ The refactored VBA script instead creates output arrays and captures the output 
 ## Summary
 Refactoring code requires not only understanding what the code is used for and will be used for but also having a good working knowledge of coding options.The goal of refactoring is to improve the sturcture of the code without changing it's overall functionality. 
 
-Improved maintainablity, improved performance, increased scalability and making the code more secure can all be reasons to refactor. The point of the refactor the intial code for this project was to improve preformance decreasing the run time of the VBA script.
 
 
 

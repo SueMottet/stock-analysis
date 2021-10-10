@@ -16,7 +16,8 @@ Using Microsoft Excel VBA scripts, analyze green energy stocks to a help a finan
 12. Provide spreadsheet with the buttons and formatted results to Steve on the handful of green energy stocks including DQ
 13. Create output arrays and alter initial code using these arrays to capture results for the data more efficiently
 
-## Results - 
+## Refactor Results
+
 Improved maintainablity, improved performance, increased scalability and making code more secure can all be reasons to refactor. The point of the refactor the intial code for this project was to improve preformance decreasing the run time of the VBA script.
 
 #### Refactoring completed to tune the VBA 

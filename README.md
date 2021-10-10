@@ -45,11 +45,11 @@ The refactored VBA script instead creates output arrays and captures the output 
 
 ###### Refactored 2017 run time
 
-![2017 refactor time](/Resources/VBA_Refactor_2017.png)  
+![2017 refactor time](/Resources/VBA_Challenge_2017.png)  
 
 ###### Initial 2018 run time
 
-![2018 refactor time](/Resources/VBA_Refactor_2018.png)  
+![2018 refactor time](/Resources/VBA_Challenge_2018.png)  
 
 
 ## Project Resources

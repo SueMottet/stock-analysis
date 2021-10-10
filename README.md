@@ -1,4 +1,4 @@
-# Refactoring - Improving performance of Microsoft Excel VBA scripts using arrays
+# Improving performance of Microsoft Excel VBA scripts using arrays
 
 ## Overview
 Refactor a VBA script used for stock analysis to improve run time and increase script usability for larger datasets.

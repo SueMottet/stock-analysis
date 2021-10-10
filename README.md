@@ -4,7 +4,7 @@
 Refactor a VBA script used for stock analysis to improve run time and increase script usability for larger datasets.
 
 ### Project Background
-Using Microsoft Excel VBA scripts, the initial VBA script automated gathering and formatting data for the analysis of green energy stocks to a help a finance graduate Steve advise his parents on the best ones to invest in based on how often the stocks are traded and returns. Steve's parent had taken a particular interest in a green energy stock DAQO (ticker DQ) so he requested looking at that stock first but also wanted to compare it to a handful of other green energy stocks. Once he completes his green energy stock analysis for his parents, he needs to be able to use this spreadsheet configuration and VBA script for larger stock dataset that he wants to analyze. With that in mind, he would like the VBA script to be refactored after the initial green energy stock analysis to improve run time as much as possible
+Using Microsoft Excel VBA scripts, the initial VBA script automated gathering and formatting data for the analysis of green energy stocks to a help a finance graduate Steve advise his parents on the best ones to invest in based on how often the stocks are traded and returns. Steve's parents had taken a particular interest in a green energy stock DAQO (ticker DQ) so he requested looking at that stock first but also wanted to compare it to a handful of other green energy stocks. Once he completes his green energy stock analysis for his parents, he needs to be able to use this spreadsheet configuration and VBA script for larger stock dataset that he wants to analyze. With that in mind, he would like the VBA script to be refactored after the initial green energy stock analysis to improve run time as much as possible.
 
 ### Project Resources
 - Data Source: green_stocks.xls
@@ -83,6 +83,7 @@ Refactoring code requires not only understanding what the code is used for and w
 ### Project Refactoring Advantages
 1. Refactoring can improve performance
 2. Refactoring with performance enhancements in mind can expand the usability of code
+
 ### Project Refactoring Disadvantages
 1. Refactoring requires a good working knowledge of coding options that may make this code harder to maintain for less skilled programmers
 2. Refactoring code can increase code complexity

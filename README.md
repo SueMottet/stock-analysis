@@ -21,7 +21,7 @@ In the case of this project, the refactoring goal was to tune the macro for opti
 
 The refactored VBA script instead creates output arrays and captures the output data in them efficiently. Using these output arrays, allows this refactored VBA script to iterate through the rows in the data sheet only once and then output the result efficiently be pulling the data out of the arrays versus having to go back to the data sheet over and over again.
 
-
+![Refactored code snippit](/Resources/Refactor_code_snip.png)  
 
 ![2018 refactored time](/Resources/VBA_Challenge_2018.png)  
 

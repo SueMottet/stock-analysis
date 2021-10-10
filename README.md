@@ -19,9 +19,13 @@ Using Microsoft Excel VBA scripts, analyze green energy stocks to a help a finan
 In the case of this project, the refactoring goal was to tune the macro for optimum performance for analyzing larger longer lists of stocks. The initial VBA script iterated through the data in the data set for one stock and then output the results for that stock to the analysis spreadsheet. 
 
 
-The refactored VBA script instead creates output arrays and captures the output data in them efficiently. Using these output arrays, allow this refactored VBA script to iterate through the rows in the data sheet only once and then output the result efficiently be pulling the data out of the arrays versus having to go back to the data sheet over and over again.
+The refactored VBA script instead creates output arrays and captures the output data in them efficiently. Using these output arrays, allows this refactored VBA script to iterate through the rows in the data sheet only once and then output the result efficiently be pulling the data out of the arrays versus having to go back to the data sheet over and over again.
 
-![2017 Refactor Time](/Resources/VBA_Challenge_2017.png)  
+![Refactored code snippit](/Refactor_code snip.png)  
+
+![2018 refactored time](/Resources/VBA_Challenge_2018.png)  
+
+![2017 refactor time](/Resources/VBA_Challenge_2017.png)  
 
 ## Project Resources
 - Data Source: green_stocks.xls

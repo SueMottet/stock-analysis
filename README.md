@@ -18,15 +18,21 @@ Using Microsoft Excel VBA scripts, analyze green energy stocks to a help a finan
 10. Provide a button in the analysis spreadsheet to prompt for a year to run for and then run the analysis for entered year as needed
 11. Provide a button to clear the worksheet prior to rerunning when needed
 12. Provide spreadsheet with the buttons and formatted results to Steve on the handful of green energy stocks including DQ
-13. Create output arrays and alter initial code using these arrays to capture results for the data more efficiently
+
+### Stock Analysis highlights
+The analysis of the stocks show that:
+- DQ had high returns in 2017 and poor returns in 2018
+- That most of the stocks had positive returns in 2017 excel TERP
+- Only two stocks had positive returns in 2018 and those two were ENPH and RUN
+
+### Steps completed to perform refactoring
+1. Create output arrays and alter initial code using these arrays to capture results for the data more efficiently
+2. Change results output to leverage arrays
 
 ## Project Refactoring Results
 
 ### Refactoring background
-Improved maintainablity, improved performance, increased scalability and making code more secure can all be reasons to refactor. The point of the refactor the intial code for this project was to improve preformance decreasing the run time of the VBA script.
-
-### Refactoring completed to tune the VBA 
-The refactoring goal for this project was to tune the macro for optimum performance for analyzing larger longer lists of stocks.
+Improved maintainablity, improved performance, increased scalability and making code more secure can all be reasons to refactor. The point of the refactor of the intial code for this project was to improve preformance decreasing the run time of the VBA script.
 
 ##### Initial code summary:
 The initial VBA script iterated through the data in the data set for one stock and then output the results for that stock to the analysis spreadsheet. 
@@ -43,7 +49,7 @@ The initial VBA script iterated through the data in the data set for one stock a
 ![2018 initial time](/Resources/VBA_Initial_2018.png)  
 
 ##### Refactored code summary:
-The refactored VBA script instead creates output arrays and captures the output data in them efficiently. Using these output arrays, allows this refactored VBA script to iterate through the rows in the data sheet only once and then output the result efficiently be pulling the data out of the arrays versus having to go back to the data sheet over and over again.
+The refactored VBA script instead creates output arrays and captures the output data in them more efficiently. Using these output arrays, allows this refactored VBA script to iterate through the rows in the data sheet only once and then output the result efficiently by pulling the data out of the arrays versus having to go back to the data sheet over and over again.
 
 ###### Refactored code sample:
 
@@ -58,19 +64,22 @@ The refactored VBA script instead creates output arrays and captures the output 
 ![2018 refactor time](/Resources/VBA_Challenge_2018.png)  
 
 ## Summary
-Refactoring code requires not only understanding what the code is used for and will be used for but also having a good working knowledge of coding options.The goal of refactoring is to improve the sturcture of the code without changing it's overall functionality. 
+Refactoring code requires not only understanding what the code is used for and will be used for but also having a good working knowledge of coding options. The overall goal of refactoring is to improve the structure of the code without changing it's functionality. 
 
-### Refactoring Advantages
-1. Leverage new technologies
+### Genearal Refactoring Advantages
+1. Leverage new technologies that were not available when code was initially written
 2. Improve code with set goals in mind: improved maintainablity, improved performance, increased scalability and/or making code more secure
 3. Potential reduction in complexity and readability
-### Refactoring Disadvantages
+
+### General Refactoring Disadvantages
 1. Time investment into code that works as is
 2. Requires impact analysis, release managment and testing rework to go with change 
 3. Risk of the introduction of new unintend functionality changes
 4. Interoperability concerns and risks
-### Stcok Analysis highlights
-The analysis of the stocks show that:
-- DQ had high returns in 2017 and poor returns in 2018
-- That most of the stocks had positive returns in 2017 excel TERP
-- Only two stocks had positive returns in 2018 and those two were ENPH and RUN
+
+### Project Refactoring Advantages
+1. Refactoring can improve performance
+2. Refactoring with performance enhancements in mind can expand the usability of code
+### Project Refactoring Disadvantages
+1. Refactoring requires a good working knowledge of coding options that may make this code harder to maintain for less skilled programmers
+2. Refactoring code can increase code complexity

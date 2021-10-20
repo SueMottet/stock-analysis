@@ -87,3 +87,7 @@ Refactoring code requires not only understanding what the code is used for and w
 ### Project Refactoring Disadvantages
 1. Refactoring requires a good working knowledge of coding options that may make this code harder to maintain for less skilled programmers
 2. Refactoring code can increase code complexity
+
+### References
+* VBA documentation https://docs.microsoft.com/en-us/office/vba/api/excel.font%28object%29
+* Basic writing and formatting syntax for GitHubhttps://help.github.com/en/articles/basic-writing-and-formatting-syntax

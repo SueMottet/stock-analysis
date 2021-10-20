@@ -90,4 +90,4 @@ Refactoring code requires not only understanding what the code is used for and w
 
 ### References
 * VBA documentation https://docs.microsoft.com/en-us/office/vba/api/excel.font%28object%29
-* Basic writing and formatting syntax for GitHubhttps://help.github.com/en/articles/basic-writing-and-formatting-syntax
+* Basic writing and formatting syntax for GitHub https://help.github.com/en/articles/basic-writing-and-formatting-syntax
